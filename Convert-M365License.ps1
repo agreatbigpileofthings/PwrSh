@@ -33,7 +33,7 @@ foreach($user in $AllUsers){
     }
     $FullList += $Properties
 }
-$FinalList = $FullList | Where-Object SkuPartNo -eq 'O365_BUSINESS_PREMIUM'
+$FinalList = $FullList | Where-Object SkuPartNo -eq 'O365_BUSINESS_STANDARD'
 
 #endregion
 
