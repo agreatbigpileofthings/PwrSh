@@ -1,3 +1,12 @@
+<#
+.Synopsis
+   Puruse through M365 users and reset M365 Tokens
+.DESCRIPTION
+   Using a registered app, reset M365 tokens for all included users in tenant.
+.EXAMPLE
+   Run this manually or via task scheduler
+#>
+
 function Write-Log {
     param(
         [string]$Message,
