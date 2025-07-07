@@ -21,7 +21,7 @@ Write-Host "AES key saved to $keyFilePath"
 
 <# Part Two #>
 # Read the key you saved earlier
-$keyFilePath = "C:\Scripts\Info\graphAes.key"
+$keyFilePath = "<path>\graphAes.key"
 $key = Get-Content -Path $keyFilePath -Encoding Byte
 
 # Prompt for your client secret securely
@@ -31,7 +31,7 @@ $secureSecret = Read-Host "Enter your Azure AD App Client Secret" -AsSecureStrin
 $encryptedSecret = $secureSecret | ConvertFrom-SecureString -Key $key
 
 # Save the encrypted secret to a file (replace path if needed)
-$secretFilePath = "C:\Scripts\Info\graphSecret.txt"
+$secretFilePath = "<path>\graphSecret.txt"
 Set-Content -Path $secretFilePath -Value $encryptedSecret
 
 Write-Host "Encrypted client secret saved to $secretFilePath"
