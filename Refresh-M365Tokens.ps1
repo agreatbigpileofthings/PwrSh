@@ -60,7 +60,6 @@ $allUsers = Get-MgUser -All | Where-Object { $ExcludeAccts -notcontains $_.UserP
 foreach ($user in $allUsers) {
     Write-Log -Message "Revoking sessions for $($user.UserPrincipalName) (ID: $($user.Id))"
     try {
-        # Uncomment the line below once your app has the proper delegated or application permissions
         Revoke-MgUserSignInSession -UserId $user.Id
 
         Write-Log -Message "Revoked sessions successfully for $($user.UserPrincipalName)"
