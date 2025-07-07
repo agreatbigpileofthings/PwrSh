@@ -14,7 +14,7 @@ $key = New-Object byte[] 32
 [Security.Cryptography.RNGCryptoServiceProvider]::Create().GetBytes($key)
 
 # Save the key to a file (replace path if you want)
-$keyFilePath = "C:\Scripts\Info\graphAes.key"
+$keyFilePath = "<path>\graphAes.key"
 $key | Set-Content -Path $keyFilePath -Encoding Byte
 
 Write-Host "AES key saved to $keyFilePath"
