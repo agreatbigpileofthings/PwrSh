@@ -6,6 +6,7 @@
 .EXAMPLE
    .\Copy-BITS.ps1  -Repo <path to server A> -Server <path to server B> -Log <path to log> -AESKey <path to AES key> -JSONKey <path to JSON key>
    .\Copy-BITS.ps1 -Repo "\\192.168.X.X\share" -Server "\\192.168.X.X\share" -Log "C:\temp" -AESKey "C:\temp\Scripts\Keys\aeskey.bin" -JSONKey "C:\temp\Scripts\keys\jsonkey.json"
+.AUTHOR agreatbigpileofthings.com
 #>
 
 param(
