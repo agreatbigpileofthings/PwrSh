@@ -16,7 +16,7 @@ param(
     [string]$OutputPath    
 )
 
-$Folders = Get-ChildItem -Path $FolderPath -Depth 1 -Recurse -Force
+$Folders = Get-ChildItem -Path $FolderPath -Depth $Depth -Recurse -Force
 $OutputData = @()
 foreach ($Folder in $Folders) {
     $Acl = Get-Acl -Path $Folder.FullName
