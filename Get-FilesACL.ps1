@@ -5,6 +5,8 @@
     Get file permission specifics for each file in a folder
 .EXAMPLE
     Run manually/ No Automation
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 $FolderPath = "FOLDERPATH"
