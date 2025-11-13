@@ -5,6 +5,8 @@
     Refresh the components for Windows Updates
 .EXAMPLE
     Run locally or deploy via MECM to individual machines
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 
