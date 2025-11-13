@@ -6,7 +6,8 @@
     1. Reg load/unload timestamps | 2. WMI | 3. Browser cache data
 .EXAMPLE
     Deploy by automation to run on individual machines
-    
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com    
 #>
 
 function WriteLog
