@@ -5,6 +5,8 @@
    Delete stored password file for Google Chrome. This will clear out all saved passwords in app.
 .EXAMPLE
    Run locally or deploy via MECM
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 function Write-Log {
