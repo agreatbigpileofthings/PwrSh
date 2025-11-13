@@ -5,7 +5,8 @@ function SearchAndDestroy-File {
    ! RUN WITH POWERSHELL 7 !
 .EXAMPLE
    SearchAndDestroy-File -folderPath "X:\folderpath" -fileName "File Name.ext"
-
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 param(
     [string]$folderPath,
