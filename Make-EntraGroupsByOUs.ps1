@@ -3,6 +3,8 @@
    Make Entra groups based on on-prem OUs
 .EXAMPLE
    Just Run It
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 Connect-MgGraph -Scopes "Group.ReadWrite.All"
