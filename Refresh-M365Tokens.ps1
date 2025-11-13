@@ -5,6 +5,8 @@
    Using a registered app, reset M365 tokens for all included users in tenant.
 .EXAMPLE
    Run this manually or via task scheduler
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 function Write-Log {
