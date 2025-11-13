@@ -5,6 +5,8 @@
     .net Versions are a pain to decypher. And its trapped in reg. Here's a script to decode it.
 .EXAMPLE
     Run locally or deploy from MECM
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 $Lookup = @{
