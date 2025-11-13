@@ -5,6 +5,8 @@
    Delete Files\Folders in a Network Share Older Than 30 Days
 .EXAMPLE
    Run locally or deploy task scheduler
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
    function Write-Log {
