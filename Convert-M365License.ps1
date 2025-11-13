@@ -5,6 +5,8 @@
    Find all users with Biz Standard licensing, apply biz prem license and remove biz standard license.
 .EXAMPLE
    Run locally as admin
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com   
 #>
 
 #region Handle Modules
