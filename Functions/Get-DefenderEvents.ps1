@@ -5,6 +5,8 @@ Function Get-DefenderEvents
     Get Windows Defender logs from Event Viewer for the past 10 days
 .EXAMPLE
     Get-DefenderEvents -ComputerName "ComputerName"
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 
