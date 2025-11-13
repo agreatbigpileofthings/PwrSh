@@ -3,6 +3,8 @@
     Report Back M365 Update Channel
 .EXAMPLE
     Run via automation on individual machines or run locally
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 $RegChannel = Get-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Office\ClickToRun\Configuration -Name "CDNBaseUrl"
