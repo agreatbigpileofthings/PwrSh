@@ -5,6 +5,8 @@
    Get Office 365 version on local PC
 .EXAMPLE
    Run locally against remote machine
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 
