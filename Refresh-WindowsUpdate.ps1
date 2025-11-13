@@ -5,7 +5,8 @@
     Refresh components to help trigger patching via MECM
 .EXAMPLE
     Run locally or deploy via MECM
-
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 <# Variable Declaration #>
