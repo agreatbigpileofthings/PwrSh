@@ -5,6 +5,8 @@
    Quick and Dirty two part chunks to encrypt the app registration value.
 .EXAMPLE
    Run this manually
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 
