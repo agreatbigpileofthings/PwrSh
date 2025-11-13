@@ -2,10 +2,10 @@ function Get-FolderProperties {
 <#
 .DESCRIPTION
   Grab folder permissions for folders in parent directory
-   
 .EXAMPLE
    Get-FolderProperties -FolderPath <path to folder> -Depth 1 -OutputPath <path to dump output csv>
-
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 param(
     [parameter(Mandatory=$true)]
