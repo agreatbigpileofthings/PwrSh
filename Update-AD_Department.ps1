@@ -3,10 +3,8 @@
     Update Department Field in AD
 .DESCRIPTION
     Based on a pre-configured list, update department field in AD. Need to grab UserPrincipalName from AD and compile list first.
-.EXAMPLE
-    Example of how to use this cmdlet
-.EXAMPLE
-    Another example of how to use this cmdlet
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 Import-Csv -Path 'FILE.csv' | ForEach-Object {
