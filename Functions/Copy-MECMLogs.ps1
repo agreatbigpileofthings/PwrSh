@@ -6,7 +6,8 @@ function Copy-MECMLogs{
     Search MECM logs for error code and copy log file to local machine
 .EXAMPLE
     Copy-MECMLogs -Computer "MACHINENAME" -ErrorCode "ERRORCODE"
-
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
     param($Computer , $ErrorCode)
 
