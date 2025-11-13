@@ -5,6 +5,8 @@
    Don't have enterprise tools? Run this script to find Win10 and older machines in your env.
 .EXAMPLE
    Run locally
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 
