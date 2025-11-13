@@ -3,6 +3,8 @@
     Delete AD computer objects from a .csv
 .EXAMPLE
     Run locally
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 $PCs = Import-Csv "PATH\FILE.csv" | Select -ExpandProperty ObjectGUID
