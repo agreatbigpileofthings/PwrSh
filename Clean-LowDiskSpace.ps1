@@ -6,6 +6,8 @@
     1. Cleanup Stale Profiles 90 days old | 2. Cleanup Recycling Bin | 3. Clean up Temp locations
 .EXAMPLE
     Run Locally or via automation like MECM on individual machines
+.AUTHOR
+Ryan Martin | agreatbigpileofthings.com
 
 #>
 
