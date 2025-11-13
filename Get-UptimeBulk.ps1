@@ -5,7 +5,8 @@
     Read off of a .txt file and report back update if host is online
 .EXAMPLE
    Run locally
-
+.AUTHOR
+    Ryan Martin | agreatbigpileofthings.com
 #>
 
 foreach($PC in (Get-Content -Path "PATH\FILE.txt")){
