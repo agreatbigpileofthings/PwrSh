@@ -3,6 +3,8 @@
    Comb through AD, grab OU, apply to extensionAttribute1
 .EXAMPLE
    Just Run It
+.AUTHOR
+ Ryan Martin | agreatbigpileofthings.com
 #>
 
 $Users = Get-ADUser -Filter * -Properties SamAccountName, extensionAttribute1
